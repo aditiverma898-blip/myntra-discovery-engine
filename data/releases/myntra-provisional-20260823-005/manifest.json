@@ -1,0 +1,212 @@
+{
+  "schemaVersion": "1.0.0",
+  "datasetVersion": "myntra-provisional-20260823-005",
+  "status": "partial",
+  "generatedAt": "2026-08-23T12:30:00.000Z",
+  "scope": {
+    "product": "myntra",
+    "targetRawRecords": 20000,
+    "acceptableRawMinimum": 18000,
+    "acceptableRawMaximum": 22000,
+    "otherShoppingPlatformsIncluded": false
+  },
+  "codeCommit": null,
+  "taxonomyVersion": "candidate-taxonomy-v1",
+  "promptVersion": "not-applicable-rule-v1",
+  "classifier": {
+    "provider": "local-deterministic-rules",
+    "model": "local-deterministic-rules-v1"
+  },
+  "embedding": null,
+  "coverage": [
+    {
+      "source": "app_store",
+      "runIds": [
+        "app-store-myntra-topup-v13-20260823-001",
+        "app-store-myntra-v12-20260823-001"
+      ],
+      "from": "2020-01-05T12:17:36.000Z",
+      "to": "2026-08-21T16:44:25.000Z",
+      "queries": [
+        "myntra-as-ae-recent",
+        "myntra-as-au-recent",
+        "myntra-as-bh-recent",
+        "myntra-as-ca-recent",
+        "myntra-as-gb-recent",
+        "myntra-as-in-helpful",
+        "myntra-as-in-high",
+        "myntra-as-in-low",
+        "myntra-as-in-middle",
+        "myntra-as-kw-recent",
+        "myntra-as-my-recent",
+        "myntra-as-nz-recent",
+        "myntra-as-qa-recent",
+        "myntra-as-sa-recent",
+        "myntra-as-sg-recent",
+        "myntra-as-us-recent",
+        "myntra-as-za-recent"
+      ]
+    },
+    {
+      "source": "google_play",
+      "runIds": [
+        "google-play-myntra-topup-v13-20260823-001",
+        "google-play-myntra-v12-20260823-001"
+      ],
+      "from": "2020-01-04T09:41:18.770Z",
+      "to": "2026-08-21T19:38:20.688Z",
+      "queries": [
+        "myntra-gp-in-en-helpful",
+        "myntra-gp-in-en-rating-1",
+        "myntra-gp-in-en-rating-2",
+        "myntra-gp-in-en-rating-3",
+        "myntra-gp-in-en-rating-4",
+        "myntra-gp-in-en-rating-5",
+        "myntra-gp-in-hi-helpful",
+        "myntra-gp-in-hi-high",
+        "myntra-gp-in-hi-low",
+        "myntra-gp-in-hi-middle",
+        "myntra-gp-topup-en-rating-1",
+        "myntra-gp-topup-en-rating-2",
+        "myntra-gp-topup-en-rating-3",
+        "myntra-gp-topup-en-rating-4",
+        "myntra-gp-topup-en-rating-5",
+        "myntra-gp-topup-hi-rating-1",
+        "myntra-gp-topup-hi-rating-2",
+        "myntra-gp-topup-hi-rating-3",
+        "myntra-gp-topup-hi-rating-4",
+        "myntra-gp-topup-hi-rating-5"
+      ]
+    },
+    {
+      "source": "reddit",
+      "runIds": [
+        "reddit-myntra-apify-expansion-v14-20260823-001",
+        "reddit-myntra-apify-lite-v132-20260823-001"
+      ],
+      "from": "2022-07-08T09:18:05.000Z",
+      "to": "2026-08-22T17:55:01.000Z",
+      "queries": [
+        "myntra-apify-indian-fashion-addicts",
+        "myntra-expansion-india",
+        "myntra-expansion-indian-beauty-deals"
+      ]
+    },
+    {
+      "source": "youtube",
+      "runIds": [
+        "youtube-myntra-20k-20260822-001",
+        "youtube-myntra-discovery-v11-20260822-001"
+      ],
+      "from": "2023-01-11T12:10:36Z",
+      "to": "2026-08-22T16:59:35Z",
+      "queries": [
+        "actual-product-color",
+        "haul-try-on-fit",
+        "myntra-broad-recent",
+        "myntra-broad-relevance",
+        "myntra-finds",
+        "myntra-haul",
+        "myntra-orders",
+        "myntra-quality",
+        "myntra-returns",
+        "myntra-review",
+        "myntra-size-fit",
+        "myntra-wishlist",
+        "order-purchase-experience",
+        "positive-confidence-control",
+        "quality-fabric-material",
+        "return-refund-risk",
+        "size-fit-before-buying"
+      ]
+    }
+  ],
+  "counts": {
+    "raw": 13988,
+    "normalized": 13988,
+    "canonical": 11903,
+    "direct": 7,
+    "adjacent": 2195,
+    "general": 8054,
+    "irrelevant": 1647,
+    "reviewed": 0
+  },
+  "files": [
+    {
+      "role": "dashboard_aggregates",
+      "path": "aggregates.json",
+      "sha256": "6378c8308a014e1629cc6144b0d360c2140f7babe659dba7498395bb25d69bb9",
+      "recordCount": null,
+      "visibility": "client"
+    },
+    {
+      "role": "public_safe_evidence",
+      "path": "evidence.server.jsonl",
+      "sha256": "560f9bcf16014586f37671232bc8eb5c760187948bf81b2f1bd7f8819bcb6bac",
+      "recordCount": 11903,
+      "visibility": "server"
+    },
+    {
+      "role": "normalized_evidence",
+      "path": "normalized.restricted.jsonl",
+      "sha256": "fd2b22b87515d7d46bb0ef8557137b9fc2c2287167b22f0374caf1bfadd56f7b",
+      "recordCount": 11903,
+      "visibility": "restricted"
+    },
+    {
+      "role": "classifications",
+      "path": "classifications.restricted.jsonl",
+      "sha256": "2900cb6211783626a1b138e68219e0a8aca8e1c0880db303a3abd7d2a976abe4",
+      "recordCount": 11903,
+      "visibility": "restricted"
+    },
+    {
+      "role": "validation_ledger",
+      "path": "validation-ledger.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "recordCount": 0,
+      "visibility": "restricted"
+    },
+    {
+      "role": "theme_discovery",
+      "path": "lexical-clusters.json",
+      "sha256": "d456ec56371c93f3eafaf48baefbaa42256e11cdada5c8d6c220bbf1cba6e654",
+      "recordCount": null,
+      "visibility": "restricted"
+    },
+    {
+      "role": "quality_report",
+      "path": "quality-report.json",
+      "sha256": "fae1909de36001383d27221f5f80691a37d194da2c2c158f0e35056bcff3d865",
+      "recordCount": null,
+      "visibility": "restricted"
+    },
+    {
+      "role": "methodology",
+      "path": "methodology.json",
+      "sha256": "5792cc7ae7b1bb2d477dfdefbd10ba2b124be881406280df6d08e406957d2b11",
+      "recordCount": null,
+      "visibility": "client"
+    },
+    {
+      "role": "taxonomy",
+      "path": "taxonomy.json",
+      "sha256": "f9111ab2d7fa45ec86e8a54ef694f83519320ad0c8cb9aeb068face9b6a90490",
+      "recordCount": 6,
+      "visibility": "client"
+    }
+  ],
+  "qualityStatus": "passed_with_warnings",
+  "limitations": [
+    "PROVISIONAL: all 11,903 canonical classifications are deterministic candidates and have not been independently human-reviewed.",
+    "The intake retained 13,988 distinct raw source identities, below the documented acceptable minimum of 18,000.",
+    "The simulated 300-row review only verifies workflow mechanics; it is not classifier-quality evidence and cannot approve a ready release.",
+    "The lexical taxonomy is candidate-only; simulated taxonomy decisions are not human validation.",
+    "The corpus is query-targeted, source-specific public evidence and cannot estimate Myntra-user prevalence or causal conversion impact.",
+    "Store ratings apply only to Google Play and App Store evidence; no cross-source sentiment score was inferred.",
+    "Monthly charts describe collection coverage, not changes in Myntra user prevalence or behavior.",
+    "Reddit collection was partial and its evidence is subject to the shortest source retention deadline.",
+    "Direct wishlist evidence is sparse; adjacent shopping-decision evidence must not be presented as direct wishlist behavior.",
+    "Preferred Variant Availability has limited candidate support, zero human review, and is included only to prioritize interview validation."
+  ]
+}

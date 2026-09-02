@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "1.0.0",
+  "datasetVersion": "myntra-provisional-20260823-005",
+  "productScope": "myntra",
+  "pipelineVersion": "offline-pipeline-v2",
+  "inputChecksum": "302aa0c3714da8e1ae4cfb67d3806d990bac4f98715623a4b32f99f3d43802d1",
+  "externalCallsMadeByOfflinePipeline": false,
+  "humanEvaluationId": null,
+  "claimLimits": [
+    "Corpus/source-specific evidence only.",
+    "No population prevalence, causal conversion, revenue, demographic, or private-user inference."
+  ]
+}

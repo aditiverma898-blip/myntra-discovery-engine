@@ -1,0 +1,389 @@
+{
+  "schemaVersion": "1.0.0",
+  "datasetVersion": "myntra-provisional-20260823-005",
+  "status": "passed_with_warnings",
+  "gates": [
+    {
+      "id": "referential_integrity",
+      "passed": true,
+      "severity": "error",
+      "message": "Every classification references canonical evidence."
+    },
+    {
+      "id": "classification_coverage",
+      "passed": true,
+      "severity": "error",
+      "message": "11903/11903 canonical records have unique classifications; 0 duplicate classification IDs."
+    },
+    {
+      "id": "human_review_coverage",
+      "passed": false,
+      "severity": "warning",
+      "message": "0/11903 classifications have human decisions."
+    },
+    {
+      "id": "raw_volume_target",
+      "passed": false,
+      "severity": "warning",
+      "message": "13988 raw records were supplied; the documented acceptable minimum is 18,000."
+    },
+    {
+      "id": "quarantine_visible",
+      "passed": true,
+      "severity": "warning",
+      "message": "0 invalid inputs are recorded in the validation ledger."
+    },
+    {
+      "id": "source_concentration",
+      "passed": true,
+      "severity": "warning",
+      "message": "Largest source share is 57%."
+    }
+  ],
+  "sourceQueryStats": [
+    {
+      "source": "app_store",
+      "queryId": "myntra-as-ae-recent",
+      "canonicalCount": 285,
+      "directCount": 0
+    },
+    {
+      "source": "app_store",
+      "queryId": "myntra-as-au-recent",
+      "canonicalCount": 78,
+      "directCount": 0
+    },
+    {
+      "source": "app_store",
+      "queryId": "myntra-as-bh-recent",
+      "canonicalCount": 25,
+      "directCount": 0
+    },
+    {
+      "source": "app_store",
+      "queryId": "myntra-as-ca-recent",
+      "canonicalCount": 374,
+      "directCount": 0
+    },
+    {
+      "source": "app_store",
+      "queryId": "myntra-as-gb-recent",
+      "canonicalCount": 205,
+      "directCount": 0
+    },
+    {
+      "source": "app_store",
+      "queryId": "myntra-as-in-helpful",
+      "canonicalCount": 352,
+      "directCount": 5
+    },
+    {
+      "source": "app_store",
+      "queryId": "myntra-as-in-high",
+      "canonicalCount": 341,
+      "directCount": 0
+    },
+    {
+      "source": "app_store",
+      "queryId": "myntra-as-in-low",
+      "canonicalCount": 46,
+      "directCount": 0
+    },
+    {
+      "source": "app_store",
+      "queryId": "myntra-as-in-middle",
+      "canonicalCount": 3,
+      "directCount": 0
+    },
+    {
+      "source": "app_store",
+      "queryId": "myntra-as-kw-recent",
+      "canonicalCount": 60,
+      "directCount": 0
+    },
+    {
+      "source": "app_store",
+      "queryId": "myntra-as-my-recent",
+      "canonicalCount": 43,
+      "directCount": 1
+    },
+    {
+      "source": "app_store",
+      "queryId": "myntra-as-nz-recent",
+      "canonicalCount": 43,
+      "directCount": 0
+    },
+    {
+      "source": "app_store",
+      "queryId": "myntra-as-qa-recent",
+      "canonicalCount": 86,
+      "directCount": 0
+    },
+    {
+      "source": "app_store",
+      "queryId": "myntra-as-sa-recent",
+      "canonicalCount": 116,
+      "directCount": 0
+    },
+    {
+      "source": "app_store",
+      "queryId": "myntra-as-sg-recent",
+      "canonicalCount": 319,
+      "directCount": 0
+    },
+    {
+      "source": "app_store",
+      "queryId": "myntra-as-us-recent",
+      "canonicalCount": 399,
+      "directCount": 0
+    },
+    {
+      "source": "app_store",
+      "queryId": "myntra-as-za-recent",
+      "canonicalCount": 15,
+      "directCount": 0
+    },
+    {
+      "source": "google_play",
+      "queryId": "myntra-gp-in-en-helpful",
+      "canonicalCount": 1246,
+      "directCount": 0
+    },
+    {
+      "source": "google_play",
+      "queryId": "myntra-gp-in-en-rating-1",
+      "canonicalCount": 783,
+      "directCount": 0
+    },
+    {
+      "source": "google_play",
+      "queryId": "myntra-gp-in-en-rating-2",
+      "canonicalCount": 53,
+      "directCount": 0
+    },
+    {
+      "source": "google_play",
+      "queryId": "myntra-gp-in-en-rating-3",
+      "canonicalCount": 41,
+      "directCount": 0
+    },
+    {
+      "source": "google_play",
+      "queryId": "myntra-gp-in-en-rating-4",
+      "canonicalCount": 316,
+      "directCount": 0
+    },
+    {
+      "source": "google_play",
+      "queryId": "myntra-gp-in-en-rating-5",
+      "canonicalCount": 998,
+      "directCount": 0
+    },
+    {
+      "source": "google_play",
+      "queryId": "myntra-gp-in-hi-helpful",
+      "canonicalCount": 573,
+      "directCount": 0
+    },
+    {
+      "source": "google_play",
+      "queryId": "myntra-gp-in-hi-high",
+      "canonicalCount": 418,
+      "directCount": 0
+    },
+    {
+      "source": "google_play",
+      "queryId": "myntra-gp-in-hi-low",
+      "canonicalCount": 148,
+      "directCount": 0
+    },
+    {
+      "source": "google_play",
+      "queryId": "myntra-gp-in-hi-middle",
+      "canonicalCount": 14,
+      "directCount": 0
+    },
+    {
+      "source": "google_play",
+      "queryId": "myntra-gp-topup-en-rating-1",
+      "canonicalCount": 675,
+      "directCount": 0
+    },
+    {
+      "source": "google_play",
+      "queryId": "myntra-gp-topup-en-rating-2",
+      "canonicalCount": 42,
+      "directCount": 0
+    },
+    {
+      "source": "google_play",
+      "queryId": "myntra-gp-topup-en-rating-3",
+      "canonicalCount": 86,
+      "directCount": 0
+    },
+    {
+      "source": "google_play",
+      "queryId": "myntra-gp-topup-en-rating-4",
+      "canonicalCount": 382,
+      "directCount": 0
+    },
+    {
+      "source": "google_play",
+      "queryId": "myntra-gp-topup-en-rating-5",
+      "canonicalCount": 1874,
+      "directCount": 0
+    },
+    {
+      "source": "google_play",
+      "queryId": "myntra-gp-topup-hi-rating-1",
+      "canonicalCount": 196,
+      "directCount": 0
+    },
+    {
+      "source": "google_play",
+      "queryId": "myntra-gp-topup-hi-rating-2",
+      "canonicalCount": 24,
+      "directCount": 0
+    },
+    {
+      "source": "google_play",
+      "queryId": "myntra-gp-topup-hi-rating-3",
+      "canonicalCount": 38,
+      "directCount": 0
+    },
+    {
+      "source": "google_play",
+      "queryId": "myntra-gp-topup-hi-rating-4",
+      "canonicalCount": 49,
+      "directCount": 0
+    },
+    {
+      "source": "google_play",
+      "queryId": "myntra-gp-topup-hi-rating-5",
+      "canonicalCount": 425,
+      "directCount": 0
+    },
+    {
+      "source": "reddit",
+      "queryId": "myntra-apify-indian-fashion-addicts",
+      "canonicalCount": 49,
+      "directCount": 0
+    },
+    {
+      "source": "reddit",
+      "queryId": "myntra-expansion-india",
+      "canonicalCount": 128,
+      "directCount": 0
+    },
+    {
+      "source": "reddit",
+      "queryId": "myntra-expansion-indian-beauty-deals",
+      "canonicalCount": 188,
+      "directCount": 1
+    },
+    {
+      "source": "youtube",
+      "queryId": "actual-product-color",
+      "canonicalCount": 30,
+      "directCount": 0
+    },
+    {
+      "source": "youtube",
+      "queryId": "haul-try-on-fit",
+      "canonicalCount": 209,
+      "directCount": 0
+    },
+    {
+      "source": "youtube",
+      "queryId": "myntra-broad-recent",
+      "canonicalCount": 439,
+      "directCount": 0
+    },
+    {
+      "source": "youtube",
+      "queryId": "myntra-broad-relevance",
+      "canonicalCount": 484,
+      "directCount": 0
+    },
+    {
+      "source": "youtube",
+      "queryId": "myntra-finds",
+      "canonicalCount": 190,
+      "directCount": 0
+    },
+    {
+      "source": "youtube",
+      "queryId": "myntra-haul",
+      "canonicalCount": 473,
+      "directCount": 0
+    },
+    {
+      "source": "youtube",
+      "queryId": "myntra-orders",
+      "canonicalCount": 144,
+      "directCount": 0
+    },
+    {
+      "source": "youtube",
+      "queryId": "myntra-quality",
+      "canonicalCount": 100,
+      "directCount": 0
+    },
+    {
+      "source": "youtube",
+      "queryId": "myntra-returns",
+      "canonicalCount": 133,
+      "directCount": 0
+    },
+    {
+      "source": "youtube",
+      "queryId": "myntra-review",
+      "canonicalCount": 381,
+      "directCount": 0
+    },
+    {
+      "source": "youtube",
+      "queryId": "myntra-size-fit",
+      "canonicalCount": 446,
+      "directCount": 0
+    },
+    {
+      "source": "youtube",
+      "queryId": "myntra-wishlist",
+      "canonicalCount": 142,
+      "directCount": 0
+    },
+    {
+      "source": "youtube",
+      "queryId": "order-purchase-experience",
+      "canonicalCount": 32,
+      "directCount": 0
+    },
+    {
+      "source": "youtube",
+      "queryId": "positive-confidence-control",
+      "canonicalCount": 29,
+      "directCount": 0
+    },
+    {
+      "source": "youtube",
+      "queryId": "quality-fabric-material",
+      "canonicalCount": 19,
+      "directCount": 0
+    },
+    {
+      "source": "youtube",
+      "queryId": "return-refund-risk",
+      "canonicalCount": 40,
+      "directCount": 0
+    },
+    {
+      "source": "youtube",
+      "queryId": "size-fit-before-buying",
+      "canonicalCount": 188,
+      "directCount": 0
+    }
+  ],
+  "contradictionCount": 392,
+  "generatedAt": "2026-08-23T10:29:06.334Z"
+}

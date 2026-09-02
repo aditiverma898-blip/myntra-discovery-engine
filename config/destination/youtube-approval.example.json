@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "1.0.0",
+  "approvalId": "youtube-review-required",
+  "source": "youtube",
+  "status": "disabled",
+  "route": "youtube_data_api",
+  "provider": "Google YouTube Data API v3",
+  "routeIdentifier": "youtube.googleapis.com/v3",
+  "reviewedAt": "2026-08-22T00:00:00.000Z",
+  "expiresAt": "2026-08-23T00:00:00.000Z",
+  "termsUrls": [
+    "https://developers.google.com/youtube/v3/docs/search/list",
+    "https://developers.google.com/youtube/v3/docs/commentThreads/list"
+  ],
+  "allowedHosts": ["www.googleapis.com"],
+  "aiProcessingAllowed": false,
+  "maxItems": 100,
+  "maxRequests": 25,
+  "maxCostUsd": 0,
+  "rawRetentionDays": 2,
+  "notes": ["Example only. Replace dates and limits after current human review."]
+}

@@ -1,0 +1,448 @@
+{
+  "schemaVersion": "1.0.0",
+  "datasetVersion": "myntra-provisional-20260823-005",
+  "taxonomyVersion": "candidate-taxonomy-v1",
+  "status": "candidate",
+  "themes": [
+    {
+      "themeId": "availability-planning",
+      "taxonomyVersion": "candidate-taxonomy-v1",
+      "name": "Preferred-variant availability",
+      "status": "discovered",
+      "userGoal": "Know when a required saved variant becomes available.",
+      "barrierOrNeed": "Manual stock checking interrupts an active decision.",
+      "journeyStages": [
+        "revisit",
+        "decision"
+      ],
+      "inclusionCriteria": [
+        "A required variant is unavailable and purchase intent remains."
+      ],
+      "exclusionCriteria": [
+        "General browsing without a preferred variant."
+      ],
+      "relatedBarrierIds": [
+        "stock_size_unavailability"
+      ],
+      "typicalWorkarounds": [
+        "Checking availability manually"
+      ],
+      "representativeEvidenceIds": [
+        "ev-03940e8854284136",
+        "ev-76fe14483c09a13f",
+        "ev-6972c60b038ff5da"
+      ],
+      "contradictoryEvidenceIds": [
+        "ev-5279bed56885467d",
+        "ev-edf422e277a65c97"
+      ],
+      "confidence": 0.7,
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "themeId": "decision-resume",
+      "taxonomyVersion": "candidate-taxonomy-v1",
+      "name": "Comparison and decision-resume effort",
+      "status": "discovered",
+      "userGoal": "Resume a saved-item comparison without reconstructing prior reasoning.",
+      "barrierOrNeed": "Saved options lose context and require repeated comparison.",
+      "journeyStages": [
+        "revisit",
+        "comparison",
+        "decision"
+      ],
+      "inclusionCriteria": [
+        "Repeated comparison or forgotten shortlist rationale is explicit."
+      ],
+      "exclusionCriteria": [
+        "Passive inspiration with no active decision."
+      ],
+      "relatedBarrierIds": [
+        "comparison_overload",
+        "wishlist_clutter_forgetting"
+      ],
+      "typicalWorkarounds": [
+        "Reopening every product"
+      ],
+      "representativeEvidenceIds": [
+        "ev-1aa7f329ecb53a40",
+        "ev-d4eee8975d8d56b1",
+        "ev-ac1a40db7a7a4f1a"
+      ],
+      "contradictoryEvidenceIds": [
+        "ev-cc732ae6e36d15df",
+        "ev-0264654036e9ea7c",
+        "ev-5d94b2d2f3b4887b",
+        "ev-a4d50dd3793d9984",
+        "ev-e7c30bf2be2d4c18",
+        "ev-c7bfab4ef5c010b0",
+        "ev-1e7726fff5c38ea9",
+        "ev-6cdf45c1d130f418",
+        "ev-a62d968d441457df",
+        "ev-7a7c9fc81791ebe0",
+        "ev-7dc889065d3402da"
+      ],
+      "confidence": 0.7,
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "themeId": "fit-confidence",
+      "taxonomyVersion": "candidate-taxonomy-v1",
+      "name": "Fit and size confidence",
+      "status": "discovered",
+      "userGoal": "Choose a suitable size with enough confidence to progress.",
+      "barrierOrNeed": "Size and silhouette evidence is not personally diagnostic.",
+      "journeyStages": [
+        "research",
+        "revisit",
+        "decision"
+      ],
+      "inclusionCriteria": [
+        "Explicit fit or size uncertainty tied to a decision."
+      ],
+      "exclusionCriteria": [
+        "Post-purchase sizing with no future decision link."
+      ],
+      "relatedBarrierIds": [
+        "fit_size_uncertainty",
+        "review_trust_gap"
+      ],
+      "typicalWorkarounds": [
+        "Rechecking reviews",
+        "Looking for measurements"
+      ],
+      "representativeEvidenceIds": [
+        "ev-4caf8875b47e83e2",
+        "ev-ec1a19ebb37f2e94",
+        "ev-72682ce6a9b0f8ef"
+      ],
+      "contradictoryEvidenceIds": [
+        "ev-ebbed24f2eae98d4",
+        "ev-ef90b9ad9adc1ba6",
+        "ev-cda7679d66c90a87",
+        "ev-56987e46682dbcdf",
+        "ev-56f57022640893fd",
+        "ev-28402a58e48c58b0",
+        "ev-485afeeaff353043",
+        "ev-8a8ac91894c18aa9",
+        "ev-e7c30bf2be2d4c18",
+        "ev-270746f9b6db98c5",
+        "ev-2bf32463e55d9416",
+        "ev-83090c4d00f93976",
+        "ev-080c7b3fdb0fa9b0",
+        "ev-2194536c30a6cbd0",
+        "ev-df43bfc8e89d7ab7",
+        "ev-e78b9ddbe2bd1e9f",
+        "ev-af359d2e17ec94be",
+        "ev-a65d59b8c136c79b",
+        "ev-4b71f32b6808d943",
+        "ev-b1f1fe131b4600c9",
+        "ev-b609d70746ee8cc7",
+        "ev-9bfa6514b7bd6f54",
+        "ev-08c8aac2f86bfac3",
+        "ev-da70c11e235ec53a",
+        "ev-380637f631cc377d",
+        "ev-09baff0239a17f97",
+        "ev-c3ffb3f06c490866",
+        "ev-ef57e0650e0f4d3e",
+        "ev-af98513b4fb2a751",
+        "ev-1e7726fff5c38ea9",
+        "ev-d2008a370547a8a4",
+        "ev-73e78afd1c173084",
+        "ev-b250a5894a2c45f2",
+        "ev-f269246860a5dc94",
+        "ev-025615a99cb38c92",
+        "ev-de642f96ed985df0",
+        "ev-10de8ba95b8aaa28",
+        "ev-5e71a9e9845f5af1"
+      ],
+      "confidence": 0.7,
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "themeId": "occasion-confidence",
+      "taxonomyVersion": "candidate-taxonomy-v1",
+      "name": "Occasion and styling confidence",
+      "status": "discovered",
+      "userGoal": "Judge whether a product suits a specific context.",
+      "barrierOrNeed": "Styling context is insufficient for an occasion decision.",
+      "journeyStages": [
+        "comparison",
+        "decision"
+      ],
+      "inclusionCriteria": [
+        "A named occasion or styling requirement affects choice."
+      ],
+      "exclusionCriteria": [
+        "General aesthetic preference."
+      ],
+      "relatedBarrierIds": [
+        "styling_occasion_uncertainty",
+        "social_validation_gap"
+      ],
+      "typicalWorkarounds": [
+        "Asking friends"
+      ],
+      "representativeEvidenceIds": [],
+      "contradictoryEvidenceIds": [],
+      "confidence": 0,
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "themeId": "product-confidence",
+      "taxonomyVersion": "candidate-taxonomy-v1",
+      "name": "Product evidence confidence",
+      "status": "discovered",
+      "userGoal": "Understand likely material and visual reality before purchase.",
+      "barrierOrNeed": "Catalog evidence does not resolve material, colour, or review conflict.",
+      "journeyStages": [
+        "research",
+        "decision"
+      ],
+      "inclusionCriteria": [
+        "Material, colour, image, or review diagnosticity affects a decision."
+      ],
+      "exclusionCriteria": [
+        "Actual fulfillment failures without pre-purchase uncertainty."
+      ],
+      "relatedBarrierIds": [
+        "material_quality_uncertainty",
+        "color_image_mismatch",
+        "review_trust_gap"
+      ],
+      "typicalWorkarounds": [
+        "Comparing external photos",
+        "Looking for measurements"
+      ],
+      "representativeEvidenceIds": [
+        "ev-59dc970bf8052523",
+        "ev-4f8aba6d08263529",
+        "ev-bd6974746612a98b"
+      ],
+      "contradictoryEvidenceIds": [
+        "ev-70cca4e6bb95946a",
+        "ev-a346b50c2ef036df",
+        "ev-d1c0799704e9ff8a",
+        "ev-9fb3dc0682e3a3ec",
+        "ev-2b0686414ea6f327",
+        "ev-f662b23e28e30fcb",
+        "ev-1be5d36cf811d60c",
+        "ev-7edae49b30ddfdd9",
+        "ev-904092f9d02116f5",
+        "ev-e1733258bb6cb0b5",
+        "ev-fde1447464504ef1",
+        "ev-a9872cf0dbdf194d",
+        "ev-438d75af7ce9e5d9",
+        "ev-c32494006bdeff75",
+        "ev-9f82869c03082514",
+        "ev-970a13bf11e10278",
+        "ev-e5fcb5e87e1f96ac",
+        "ev-80ac586280d442a4",
+        "ev-9f633a732f53d043",
+        "ev-ef90b9ad9adc1ba6",
+        "ev-059db61ac88180ef",
+        "ev-b43fc50082ca9b8d",
+        "ev-2325c030a9dc9e0c",
+        "ev-3d48321e5850ef05",
+        "ev-56987e46682dbcdf",
+        "ev-8ecbc5ee20c01382",
+        "ev-ed1400c2a358797f",
+        "ev-151101297c44a0b9",
+        "ev-56f57022640893fd",
+        "ev-9e62b4e749a7e6c6",
+        "ev-28402a58e48c58b0",
+        "ev-83fa7cd5ea3da6fe",
+        "ev-485afeeaff353043",
+        "ev-8a8ac91894c18aa9",
+        "ev-e7c30bf2be2d4c18",
+        "ev-270746f9b6db98c5",
+        "ev-2bf32463e55d9416",
+        "ev-f5bd44c98157cd4e",
+        "ev-6d22e1bcbfad0e40",
+        "ev-e3ee3e1aaa225b71",
+        "ev-300cd3e5d0d97426",
+        "ev-83090c4d00f93976",
+        "ev-1e5108f97067efad",
+        "ev-3fa4397a340309f6",
+        "ev-080c7b3fdb0fa9b0",
+        "ev-2194536c30a6cbd0",
+        "ev-b103be6aae8d2e1b",
+        "ev-27a2ede165d8a034",
+        "ev-b0c3de3a1cb8c0be",
+        "ev-04972c28f76e6367",
+        "ev-fa08faf2fcb940db",
+        "ev-e16213f426ea7c22",
+        "ev-a675966ffc93f86f",
+        "ev-2fde39185a174c0c",
+        "ev-62e74c591cf1db05",
+        "ev-6ac2d24e02f54e64",
+        "ev-4fb417d0793cecdc",
+        "ev-765affc395f7a486",
+        "ev-ad8ccc58a0f2c9e3",
+        "ev-e73dda55c01f72a2",
+        "ev-88ac0a167ce68456",
+        "ev-9d608ba8cbebae9b",
+        "ev-a794b3220a744de5",
+        "ev-a0274913069d9726",
+        "ev-adb10ee5bf1944f6",
+        "ev-0cd4f9fe1bfb6aff",
+        "ev-df2421e541413b6e",
+        "ev-2702b915408a0740",
+        "ev-de5526ffdab3a92e",
+        "ev-df43bfc8e89d7ab7",
+        "ev-e78b9ddbe2bd1e9f",
+        "ev-af359d2e17ec94be",
+        "ev-a65d59b8c136c79b",
+        "ev-b1f1fe131b4600c9",
+        "ev-9bfa6514b7bd6f54",
+        "ev-0d5a8717b54317d3",
+        "ev-17848545419371a9",
+        "ev-892ea77d2c4a0e3a",
+        "ev-edd58c0d2c2e92d0",
+        "ev-8b3511ebfd04f95e",
+        "ev-da70c11e235ec53a",
+        "ev-0d50db5f39b9c242",
+        "ev-380637f631cc377d",
+        "ev-09baff0239a17f97",
+        "ev-ef57e0650e0f4d3e",
+        "ev-6d8567f375abe506",
+        "ev-4be40e3f8c381420",
+        "ev-af98513b4fb2a751",
+        "ev-5bbd190be5fa6c95",
+        "ev-d2c6bfdd340851d7",
+        "ev-457a86ca7efe48d9",
+        "ev-9ac3ec524337f9e0",
+        "ev-788d87c08b8325ba",
+        "ev-d2008a370547a8a4",
+        "ev-26ef7459abf63c10",
+        "ev-f886896cabf6fd58",
+        "ev-2668ea14e8829eba",
+        "ev-3c6102282977451e",
+        "ev-56ec1e73a3054961",
+        "ev-8bc31e99ace3a889",
+        "ev-1b89b3b15ef5f157",
+        "ev-c31f603a5f55a007",
+        "ev-6a5a03f98b009e06",
+        "ev-af95eff655f9d0db",
+        "ev-ba96d2e6726b92a9",
+        "ev-5d616dbc7d6bbcf4",
+        "ev-42dce5351cbaa6ab",
+        "ev-734d00e8c87be5c7",
+        "ev-8e440eb92c44017a",
+        "ev-629f1c48e765e0ba",
+        "ev-9549b12022bb79ee",
+        "ev-128b625a341de149",
+        "ev-a9b5e9192c6f2f64",
+        "ev-ffdbd515d37c01ac",
+        "ev-d6e69a77c26889a8",
+        "ev-5fd5169dade647ec",
+        "ev-a9c0d9e40c0fbad8",
+        "ev-b4693ba59ecba10d",
+        "ev-99b255de297af88b",
+        "ev-c668951351ce3974",
+        "ev-edc76a26b4745381",
+        "ev-6ff5c70d2f6e2215",
+        "ev-de642f96ed985df0",
+        "ev-a06b62a90cce23ec",
+        "ev-8ac61eb0e55a8c88",
+        "ev-c3d5e5f576048474",
+        "ev-5e71a9e9845f5af1",
+        "ev-02c9f2a6c47623ad"
+      ],
+      "confidence": 0.7,
+      "reviewedBy": null,
+      "reviewedAt": null
+    },
+    {
+      "themeId": "reversible-purchase",
+      "taxonomyVersion": "candidate-taxonomy-v1",
+      "name": "Reversible purchase confidence",
+      "status": "discovered",
+      "userGoal": "Understand the effort and timing required if a choice is wrong.",
+      "barrierOrNeed": "Return and refund uncertainty delays an otherwise active choice.",
+      "journeyStages": [
+        "revisit",
+        "decision"
+      ],
+      "inclusionCriteria": [
+        "Return or refund uncertainty is linked to pre-purchase delay."
+      ],
+      "exclusionCriteria": [
+        "Resolved post-purchase support complaints."
+      ],
+      "relatedBarrierIds": [
+        "return_refund_risk"
+      ],
+      "typicalWorkarounds": [],
+      "representativeEvidenceIds": [
+        "ev-4f8aba6d08263529",
+        "ev-bd6974746612a98b",
+        "ev-402f35cc01b329b2"
+      ],
+      "contradictoryEvidenceIds": [
+        "ev-716cde5d8fd292ee",
+        "ev-438d75af7ce9e5d9",
+        "ev-5d94b2d2f3b4887b",
+        "ev-80ac586280d442a4",
+        "ev-ef90b9ad9adc1ba6",
+        "ev-3b534c8c400af793",
+        "ev-b43fc50082ca9b8d",
+        "ev-2325c030a9dc9e0c",
+        "ev-3d48321e5850ef05",
+        "ev-0c2a02549dd88a70",
+        "ev-9e62b4e749a7e6c6",
+        "ev-079f96fb9cf0fd15",
+        "ev-485afeeaff353043",
+        "ev-e7c30bf2be2d4c18",
+        "ev-c16a1e14f9f31c72",
+        "ev-3ae661f6953feb21",
+        "ev-83090c4d00f93976",
+        "ev-339f94e4cad0f219",
+        "ev-9d368e715c6e7b96",
+        "ev-647f8b780dca1e96",
+        "ev-03b50d6ba6bf69fa",
+        "ev-0d7814791d111944",
+        "ev-16f42fd975c352af",
+        "ev-ad8ccc58a0f2c9e3",
+        "ev-9d608ba8cbebae9b",
+        "ev-f4023c1fbc245b63",
+        "ev-969661fc3dac6840",
+        "ev-adb10ee5bf1944f6",
+        "ev-df43bfc8e89d7ab7",
+        "ev-e78b9ddbe2bd1e9f",
+        "ev-a65d59b8c136c79b",
+        "ev-6da0f4b4cb05c496",
+        "ev-4b71f32b6808d943",
+        "ev-b1f1fe131b4600c9",
+        "ev-76dbd4cb4e288d8b",
+        "ev-b609d70746ee8cc7",
+        "ev-9bfa6514b7bd6f54",
+        "ev-17848545419371a9",
+        "ev-892ea77d2c4a0e3a",
+        "ev-edd58c0d2c2e92d0",
+        "ev-edf422e277a65c97",
+        "ev-a09b7748cd8c1651",
+        "ev-8b3511ebfd04f95e",
+        "ev-fc2b8e72105147ee",
+        "ev-ff2104a032fa5908",
+        "ev-0d50db5f39b9c242",
+        "ev-14481c808c33e13e",
+        "ev-6d8567f375abe506",
+        "ev-4be40e3f8c381420",
+        "ev-243b46e85752822f",
+        "ev-776714584c1ed262",
+        "ev-c87359f3d8bba9d6",
+        "ev-0a204383f7c7d538",
+        "ev-025615a99cb38c92",
+        "ev-29d4d4e83c367807"
+      ],
+      "confidence": 0.7,
+      "reviewedBy": null,
+      "reviewedAt": null
+    }
+  ]
+}

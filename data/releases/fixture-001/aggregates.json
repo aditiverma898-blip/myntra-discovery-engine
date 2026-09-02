@@ -1,0 +1,1555 @@
+{
+  "status": "ready",
+  "datasetVersion": "fixture-001",
+  "generatedAt": "2026-08-22T00:00:00.000Z",
+  "productScope": "myntra",
+  "sources": {
+    "configured": [
+      "app_store",
+      "community",
+      "google_play",
+      "myntra_product_review",
+      "reddit",
+      "youtube"
+    ],
+    "collected": [
+      "app_store",
+      "community",
+      "google_play",
+      "myntra_product_review",
+      "reddit",
+      "youtube"
+    ]
+  },
+  "totals": {
+    "evidence": 13,
+    "themes": 6,
+    "segments": 3,
+    "opportunities": 5
+  },
+  "relevanceDistribution": [
+    {
+      "key": "direct_wishlist",
+      "count": 7,
+      "denominator": 13
+    },
+    {
+      "key": "journey_adjacent",
+      "count": 4,
+      "denominator": 13
+    },
+    {
+      "key": "general",
+      "count": 1,
+      "denominator": 13
+    },
+    {
+      "key": "irrelevant",
+      "count": 1,
+      "denominator": 13
+    }
+  ],
+  "sourceStats": [
+    {
+      "source": "app_store",
+      "count": 2,
+      "directCount": 1,
+      "coverageFrom": "2026-06-27T08:00:00.000Z",
+      "coverageTo": "2026-07-07T08:00:00.000Z",
+      "warnings": [
+        "Synthetic fixture source; no source request occurred."
+      ]
+    },
+    {
+      "source": "community",
+      "count": 2,
+      "directCount": 0,
+      "coverageFrom": "2026-06-12T08:00:00.000Z",
+      "coverageTo": "2026-07-10T08:00:00.000Z",
+      "warnings": [
+        "Synthetic fixture source; no source request occurred."
+      ]
+    },
+    {
+      "source": "google_play",
+      "count": 3,
+      "directCount": 3,
+      "coverageFrom": "2026-07-02T08:00:00.000Z",
+      "coverageTo": "2026-07-09T08:00:00.000Z",
+      "warnings": [
+        "Synthetic fixture source; no source request occurred."
+      ]
+    },
+    {
+      "source": "myntra_product_review",
+      "count": 3,
+      "directCount": 2,
+      "coverageFrom": "2026-06-18T08:00:00.000Z",
+      "coverageTo": "2026-07-11T08:00:00.000Z",
+      "warnings": [
+        "Synthetic fixture source; no source request occurred."
+      ]
+    },
+    {
+      "source": "reddit",
+      "count": 1,
+      "directCount": 1,
+      "coverageFrom": "2026-06-25T08:00:00.000Z",
+      "coverageTo": "2026-06-25T08:00:00.000Z",
+      "warnings": [
+        "Synthetic fixture source; no source request occurred."
+      ]
+    },
+    {
+      "source": "youtube",
+      "count": 2,
+      "directCount": 0,
+      "coverageFrom": "2026-06-20T08:00:00.000Z",
+      "coverageTo": "2026-07-08T08:00:00.000Z",
+      "warnings": [
+        "Synthetic fixture source; no source request occurred."
+      ]
+    }
+  ],
+  "analytics": {
+    "denominators": {
+      "corpus": 13,
+      "candidateRelevant": 11,
+      "ratedStoreEvidence": 5,
+      "humanReviewed": 13
+    },
+    "sourceMetrics": [
+      {
+        "source": "app_store",
+        "canonicalCount": 2,
+        "corpusShare": 0.1538,
+        "relevantCount": 1,
+        "relevanceRate": 0.5,
+        "directWishlistCount": 1,
+        "ratingCount": 2,
+        "averageRating": 1.5,
+        "coverageFrom": "2026-06-27T08:00:00.000Z",
+        "coverageTo": "2026-07-07T08:00:00.000Z"
+      },
+      {
+        "source": "community",
+        "canonicalCount": 2,
+        "corpusShare": 0.1538,
+        "relevantCount": 2,
+        "relevanceRate": 1,
+        "directWishlistCount": 0,
+        "ratingCount": 0,
+        "averageRating": null,
+        "coverageFrom": "2026-06-12T08:00:00.000Z",
+        "coverageTo": "2026-07-10T08:00:00.000Z"
+      },
+      {
+        "source": "google_play",
+        "canonicalCount": 3,
+        "corpusShare": 0.2308,
+        "relevantCount": 3,
+        "relevanceRate": 1,
+        "directWishlistCount": 3,
+        "ratingCount": 3,
+        "averageRating": 3.33,
+        "coverageFrom": "2026-07-02T08:00:00.000Z",
+        "coverageTo": "2026-07-09T08:00:00.000Z"
+      },
+      {
+        "source": "myntra_product_review",
+        "canonicalCount": 3,
+        "corpusShare": 0.2308,
+        "relevantCount": 3,
+        "relevanceRate": 1,
+        "directWishlistCount": 2,
+        "ratingCount": 0,
+        "averageRating": null,
+        "coverageFrom": "2026-06-18T08:00:00.000Z",
+        "coverageTo": "2026-07-11T08:00:00.000Z"
+      },
+      {
+        "source": "reddit",
+        "canonicalCount": 1,
+        "corpusShare": 0.0769,
+        "relevantCount": 1,
+        "relevanceRate": 1,
+        "directWishlistCount": 1,
+        "ratingCount": 0,
+        "averageRating": null,
+        "coverageFrom": "2026-06-25T08:00:00.000Z",
+        "coverageTo": "2026-06-25T08:00:00.000Z"
+      },
+      {
+        "source": "youtube",
+        "canonicalCount": 2,
+        "corpusShare": 0.1538,
+        "relevantCount": 1,
+        "relevanceRate": 0.5,
+        "directWishlistCount": 0,
+        "ratingCount": 0,
+        "averageRating": null,
+        "coverageFrom": "2026-06-20T08:00:00.000Z",
+        "coverageTo": "2026-07-08T08:00:00.000Z"
+      }
+    ],
+    "ratingDistribution": [
+      {
+        "source": "app_store",
+        "rating": 1,
+        "count": 1
+      },
+      {
+        "source": "app_store",
+        "rating": 2,
+        "count": 1
+      },
+      {
+        "source": "app_store",
+        "rating": 3,
+        "count": 0
+      },
+      {
+        "source": "app_store",
+        "rating": 4,
+        "count": 0
+      },
+      {
+        "source": "app_store",
+        "rating": 5,
+        "count": 0
+      },
+      {
+        "source": "google_play",
+        "rating": 1,
+        "count": 0
+      },
+      {
+        "source": "google_play",
+        "rating": 2,
+        "count": 0
+      },
+      {
+        "source": "google_play",
+        "rating": 3,
+        "count": 2
+      },
+      {
+        "source": "google_play",
+        "rating": 4,
+        "count": 1
+      },
+      {
+        "source": "google_play",
+        "rating": 5,
+        "count": 0
+      }
+    ],
+    "sourceByRelevance": [
+      {
+        "source": "app_store",
+        "counts": [
+          {
+            "relevance": "direct_wishlist",
+            "count": 1
+          },
+          {
+            "relevance": "journey_adjacent",
+            "count": 0
+          },
+          {
+            "relevance": "general",
+            "count": 1
+          },
+          {
+            "relevance": "irrelevant",
+            "count": 0
+          }
+        ]
+      },
+      {
+        "source": "community",
+        "counts": [
+          {
+            "relevance": "direct_wishlist",
+            "count": 0
+          },
+          {
+            "relevance": "journey_adjacent",
+            "count": 2
+          },
+          {
+            "relevance": "general",
+            "count": 0
+          },
+          {
+            "relevance": "irrelevant",
+            "count": 0
+          }
+        ]
+      },
+      {
+        "source": "google_play",
+        "counts": [
+          {
+            "relevance": "direct_wishlist",
+            "count": 3
+          },
+          {
+            "relevance": "journey_adjacent",
+            "count": 0
+          },
+          {
+            "relevance": "general",
+            "count": 0
+          },
+          {
+            "relevance": "irrelevant",
+            "count": 0
+          }
+        ]
+      },
+      {
+        "source": "myntra_product_review",
+        "counts": [
+          {
+            "relevance": "direct_wishlist",
+            "count": 2
+          },
+          {
+            "relevance": "journey_adjacent",
+            "count": 1
+          },
+          {
+            "relevance": "general",
+            "count": 0
+          },
+          {
+            "relevance": "irrelevant",
+            "count": 0
+          }
+        ]
+      },
+      {
+        "source": "reddit",
+        "counts": [
+          {
+            "relevance": "direct_wishlist",
+            "count": 1
+          },
+          {
+            "relevance": "journey_adjacent",
+            "count": 0
+          },
+          {
+            "relevance": "general",
+            "count": 0
+          },
+          {
+            "relevance": "irrelevant",
+            "count": 0
+          }
+        ]
+      },
+      {
+        "source": "youtube",
+        "counts": [
+          {
+            "relevance": "direct_wishlist",
+            "count": 0
+          },
+          {
+            "relevance": "journey_adjacent",
+            "count": 1
+          },
+          {
+            "relevance": "general",
+            "count": 0
+          },
+          {
+            "relevance": "irrelevant",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "barrierStats": [
+      {
+        "barrier": "fit_size_uncertainty",
+        "count": 3,
+        "relevantShare": 0.2727,
+        "directCount": 2,
+        "averageSeverity": 1,
+        "sourceCount": 2,
+        "sourceDistribution": {
+          "google_play": 1,
+          "myntra_product_review": 2
+        }
+      },
+      {
+        "barrier": "color_image_mismatch",
+        "count": 1,
+        "relevantShare": 0.0909,
+        "directCount": 0,
+        "averageSeverity": 1,
+        "sourceCount": 1,
+        "sourceDistribution": {
+          "youtube": 1
+        }
+      },
+      {
+        "barrier": "comparison_overload",
+        "count": 1,
+        "relevantShare": 0.0909,
+        "directCount": 1,
+        "averageSeverity": 2,
+        "sourceCount": 1,
+        "sourceDistribution": {
+          "reddit": 1
+        }
+      },
+      {
+        "barrier": "low_purchase_intent_bookmarking",
+        "count": 1,
+        "relevantShare": 0.0909,
+        "directCount": 0,
+        "averageSeverity": 0,
+        "sourceCount": 1,
+        "sourceDistribution": {
+          "community": 1
+        }
+      },
+      {
+        "barrier": "material_quality_uncertainty",
+        "count": 1,
+        "relevantShare": 0.0909,
+        "directCount": 1,
+        "averageSeverity": 2,
+        "sourceCount": 1,
+        "sourceDistribution": {
+          "myntra_product_review": 1
+        }
+      },
+      {
+        "barrier": "price_waiting",
+        "count": 1,
+        "relevantShare": 0.0909,
+        "directCount": 1,
+        "averageSeverity": 2,
+        "sourceCount": 1,
+        "sourceDistribution": {
+          "google_play": 1
+        }
+      },
+      {
+        "barrier": "return_refund_risk",
+        "count": 1,
+        "relevantShare": 0.0909,
+        "directCount": 1,
+        "averageSeverity": 2,
+        "sourceCount": 1,
+        "sourceDistribution": {
+          "app_store": 1
+        }
+      },
+      {
+        "barrier": "review_trust_gap",
+        "count": 1,
+        "relevantShare": 0.0909,
+        "directCount": 0,
+        "averageSeverity": 1,
+        "sourceCount": 1,
+        "sourceDistribution": {
+          "myntra_product_review": 1
+        }
+      },
+      {
+        "barrier": "social_validation_gap",
+        "count": 1,
+        "relevantShare": 0.0909,
+        "directCount": 0,
+        "averageSeverity": 1,
+        "sourceCount": 1,
+        "sourceDistribution": {
+          "community": 1
+        }
+      },
+      {
+        "barrier": "stock_size_unavailability",
+        "count": 1,
+        "relevantShare": 0.0909,
+        "directCount": 1,
+        "averageSeverity": 2,
+        "sourceCount": 1,
+        "sourceDistribution": {
+          "google_play": 1
+        }
+      },
+      {
+        "barrier": "styling_occasion_uncertainty",
+        "count": 1,
+        "relevantShare": 0.0909,
+        "directCount": 0,
+        "averageSeverity": 1,
+        "sourceCount": 1,
+        "sourceDistribution": {
+          "community": 1
+        }
+      },
+      {
+        "barrier": "wishlist_clutter_forgetting",
+        "count": 1,
+        "relevantShare": 0.0909,
+        "directCount": 1,
+        "averageSeverity": 2,
+        "sourceCount": 1,
+        "sourceDistribution": {
+          "reddit": 1
+        }
+      }
+    ],
+    "journeyStageStats": {
+      "nonExclusive": true,
+      "items": [
+        {
+          "journeyStage": "decision",
+          "count": 10,
+          "relevantShare": 0.9091,
+          "sourceDistribution": {
+            "google_play": 3,
+            "myntra_product_review": 3,
+            "youtube": 1,
+            "reddit": 1,
+            "app_store": 1,
+            "community": 1
+          }
+        },
+        {
+          "journeyStage": "revisit",
+          "count": 6,
+          "relevantShare": 0.5455,
+          "sourceDistribution": {
+            "google_play": 3,
+            "myntra_product_review": 1,
+            "reddit": 1,
+            "app_store": 1
+          }
+        },
+        {
+          "journeyStage": "research",
+          "count": 3,
+          "relevantShare": 0.2727,
+          "sourceDistribution": {
+            "google_play": 1,
+            "youtube": 1,
+            "myntra_product_review": 1
+          }
+        },
+        {
+          "journeyStage": "comparison",
+          "count": 2,
+          "relevantShare": 0.1818,
+          "sourceDistribution": {
+            "reddit": 1,
+            "community": 1
+          }
+        },
+        {
+          "journeyStage": "wishlist_add",
+          "count": 2,
+          "relevantShare": 0.1818,
+          "sourceDistribution": {
+            "myntra_product_review": 1,
+            "community": 1
+          }
+        },
+        {
+          "journeyStage": "bag",
+          "count": 1,
+          "relevantShare": 0.0909,
+          "sourceDistribution": {
+            "myntra_product_review": 1
+          }
+        }
+      ]
+    },
+    "journeyBarrierMatrix": [
+      {
+        "journeyStage": "bag",
+        "barrier": "fit_size_uncertainty",
+        "count": 1
+      },
+      {
+        "journeyStage": "comparison",
+        "barrier": "comparison_overload",
+        "count": 1
+      },
+      {
+        "journeyStage": "comparison",
+        "barrier": "social_validation_gap",
+        "count": 1
+      },
+      {
+        "journeyStage": "comparison",
+        "barrier": "styling_occasion_uncertainty",
+        "count": 1
+      },
+      {
+        "journeyStage": "comparison",
+        "barrier": "wishlist_clutter_forgetting",
+        "count": 1
+      },
+      {
+        "journeyStage": "decision",
+        "barrier": "color_image_mismatch",
+        "count": 1
+      },
+      {
+        "journeyStage": "decision",
+        "barrier": "comparison_overload",
+        "count": 1
+      },
+      {
+        "journeyStage": "decision",
+        "barrier": "fit_size_uncertainty",
+        "count": 3
+      },
+      {
+        "journeyStage": "decision",
+        "barrier": "material_quality_uncertainty",
+        "count": 1
+      },
+      {
+        "journeyStage": "decision",
+        "barrier": "price_waiting",
+        "count": 1
+      },
+      {
+        "journeyStage": "decision",
+        "barrier": "return_refund_risk",
+        "count": 1
+      },
+      {
+        "journeyStage": "decision",
+        "barrier": "review_trust_gap",
+        "count": 1
+      },
+      {
+        "journeyStage": "decision",
+        "barrier": "social_validation_gap",
+        "count": 1
+      },
+      {
+        "journeyStage": "decision",
+        "barrier": "stock_size_unavailability",
+        "count": 1
+      },
+      {
+        "journeyStage": "decision",
+        "barrier": "styling_occasion_uncertainty",
+        "count": 1
+      },
+      {
+        "journeyStage": "decision",
+        "barrier": "wishlist_clutter_forgetting",
+        "count": 1
+      },
+      {
+        "journeyStage": "research",
+        "barrier": "color_image_mismatch",
+        "count": 1
+      },
+      {
+        "journeyStage": "research",
+        "barrier": "fit_size_uncertainty",
+        "count": 2
+      },
+      {
+        "journeyStage": "research",
+        "barrier": "review_trust_gap",
+        "count": 1
+      },
+      {
+        "journeyStage": "revisit",
+        "barrier": "comparison_overload",
+        "count": 1
+      },
+      {
+        "journeyStage": "revisit",
+        "barrier": "fit_size_uncertainty",
+        "count": 1
+      },
+      {
+        "journeyStage": "revisit",
+        "barrier": "material_quality_uncertainty",
+        "count": 1
+      },
+      {
+        "journeyStage": "revisit",
+        "barrier": "price_waiting",
+        "count": 1
+      },
+      {
+        "journeyStage": "revisit",
+        "barrier": "return_refund_risk",
+        "count": 1
+      },
+      {
+        "journeyStage": "revisit",
+        "barrier": "stock_size_unavailability",
+        "count": 1
+      },
+      {
+        "journeyStage": "revisit",
+        "barrier": "wishlist_clutter_forgetting",
+        "count": 1
+      },
+      {
+        "journeyStage": "wishlist_add",
+        "barrier": "fit_size_uncertainty",
+        "count": 1
+      },
+      {
+        "journeyStage": "wishlist_add",
+        "barrier": "low_purchase_intent_bookmarking",
+        "count": 1
+      }
+    ],
+    "monthlyCoverage": [
+      {
+        "month": "2026-06",
+        "source": "app_store",
+        "count": 1
+      },
+      {
+        "month": "2026-06",
+        "source": "community",
+        "count": 1
+      },
+      {
+        "month": "2026-06",
+        "source": "myntra_product_review",
+        "count": 1
+      },
+      {
+        "month": "2026-06",
+        "source": "reddit",
+        "count": 1
+      },
+      {
+        "month": "2026-06",
+        "source": "youtube",
+        "count": 1
+      },
+      {
+        "month": "2026-07",
+        "source": "app_store",
+        "count": 1
+      },
+      {
+        "month": "2026-07",
+        "source": "community",
+        "count": 1
+      },
+      {
+        "month": "2026-07",
+        "source": "google_play",
+        "count": 3
+      },
+      {
+        "month": "2026-07",
+        "source": "myntra_product_review",
+        "count": 2
+      },
+      {
+        "month": "2026-07",
+        "source": "youtube",
+        "count": 1
+      }
+    ],
+    "themeStats": [
+      {
+        "themeId": "fit-confidence",
+        "supportCount": 3,
+        "relevantShare": 0.2727,
+        "directCount": 2,
+        "adjacentCount": 1,
+        "averageSeverity": 1,
+        "sourceDistribution": {
+          "google_play": 1,
+          "myntra_product_review": 2
+        },
+        "journeyStageDistribution": {
+          "revisit": 1,
+          "research": 2,
+          "decision": 3,
+          "wishlist_add": 1,
+          "bag": 1
+        },
+        "representativeEvidenceIds": [
+          "ev-fc4157722f6df438",
+          "ev-3c0a70041b002397",
+          "ev-99ea52110bfdfce3"
+        ],
+        "controlEvidenceIds": [
+          "ev-3c0a70041b002397"
+        ]
+      },
+      {
+        "themeId": "product-confidence",
+        "supportCount": 3,
+        "relevantShare": 0.2727,
+        "directCount": 1,
+        "adjacentCount": 2,
+        "averageSeverity": 1.33,
+        "sourceDistribution": {
+          "myntra_product_review": 2,
+          "youtube": 1
+        },
+        "journeyStageDistribution": {
+          "revisit": 1,
+          "decision": 3,
+          "research": 2
+        },
+        "representativeEvidenceIds": [
+          "ev-48116b752a0680eb",
+          "ev-34dba3676e03126f",
+          "ev-99ea52110bfdfce3"
+        ],
+        "controlEvidenceIds": []
+      },
+      {
+        "themeId": "availability-planning",
+        "supportCount": 1,
+        "relevantShare": 0.0909,
+        "directCount": 1,
+        "adjacentCount": 0,
+        "averageSeverity": 2,
+        "sourceDistribution": {
+          "google_play": 1
+        },
+        "journeyStageDistribution": {
+          "revisit": 1,
+          "decision": 1
+        },
+        "representativeEvidenceIds": [
+          "ev-3a9797249a3d7724"
+        ],
+        "controlEvidenceIds": []
+      },
+      {
+        "themeId": "decision-resume",
+        "supportCount": 1,
+        "relevantShare": 0.0909,
+        "directCount": 1,
+        "adjacentCount": 0,
+        "averageSeverity": 2,
+        "sourceDistribution": {
+          "reddit": 1
+        },
+        "journeyStageDistribution": {
+          "revisit": 1,
+          "comparison": 1,
+          "decision": 1
+        },
+        "representativeEvidenceIds": [
+          "ev-433ad9ec9a2ddc0c"
+        ],
+        "controlEvidenceIds": []
+      },
+      {
+        "themeId": "occasion-confidence",
+        "supportCount": 1,
+        "relevantShare": 0.0909,
+        "directCount": 0,
+        "adjacentCount": 1,
+        "averageSeverity": 1,
+        "sourceDistribution": {
+          "community": 1
+        },
+        "journeyStageDistribution": {
+          "comparison": 1,
+          "decision": 1
+        },
+        "representativeEvidenceIds": [
+          "ev-f57ce8253daf8e82"
+        ],
+        "controlEvidenceIds": []
+      },
+      {
+        "themeId": "reversible-purchase",
+        "supportCount": 1,
+        "relevantShare": 0.0909,
+        "directCount": 1,
+        "adjacentCount": 0,
+        "averageSeverity": 2,
+        "sourceDistribution": {
+          "app_store": 1
+        },
+        "journeyStageDistribution": {
+          "revisit": 1,
+          "decision": 1
+        },
+        "representativeEvidenceIds": [
+          "ev-8f1b5ee4620f7fe4"
+        ],
+        "controlEvidenceIds": []
+      }
+    ],
+    "opportunityStats": [
+      {
+        "opportunityId": "preferred-variant-availability",
+        "adjustedScore": 67.2,
+        "evidenceCount": 1,
+        "directCount": 1,
+        "adjacentCount": 0,
+        "sourceBreadth": 1,
+        "nonMonetarySolvability": 100,
+        "reviewState": "reviewed"
+      },
+      {
+        "opportunityId": "shortlist-memory",
+        "adjustedScore": 67,
+        "evidenceCount": 1,
+        "directCount": 1,
+        "adjacentCount": 0,
+        "sourceBreadth": 1,
+        "nonMonetarySolvability": 100,
+        "reviewState": "reviewed"
+      },
+      {
+        "opportunityId": "product-evidence-clarity",
+        "adjustedScore": 66.7,
+        "evidenceCount": 3,
+        "directCount": 1,
+        "adjacentCount": 2,
+        "sourceBreadth": 2,
+        "nonMonetarySolvability": 100,
+        "reviewState": "reviewed"
+      },
+      {
+        "opportunityId": "fit-decision-support",
+        "adjustedScore": 65.4,
+        "evidenceCount": 3,
+        "directCount": 2,
+        "adjacentCount": 1,
+        "sourceBreadth": 2,
+        "nonMonetarySolvability": 100,
+        "reviewState": "reviewed"
+      },
+      {
+        "opportunityId": "reversibility-clarity",
+        "adjustedScore": 61.7,
+        "evidenceCount": 1,
+        "directCount": 1,
+        "adjacentCount": 0,
+        "sourceBreadth": 1,
+        "nonMonetarySolvability": 66.7,
+        "reviewState": "reviewed"
+      }
+    ]
+  },
+  "themes": [
+    {
+      "themeId": "availability-planning",
+      "taxonomyVersion": "fixture-taxonomy-v1",
+      "name": "Preferred-variant availability",
+      "status": "discovered",
+      "userGoal": "Know when a required saved variant becomes available.",
+      "barrierOrNeed": "Manual stock checking interrupts an active decision.",
+      "journeyStages": [
+        "revisit",
+        "decision"
+      ],
+      "inclusionCriteria": [
+        "A required variant is unavailable and purchase intent remains."
+      ],
+      "exclusionCriteria": [
+        "General browsing without a preferred variant."
+      ],
+      "relatedBarrierIds": [
+        "stock_size_unavailability"
+      ],
+      "typicalWorkarounds": [
+        "Checking availability manually"
+      ],
+      "representativeEvidenceIds": [
+        "ev-3a9797249a3d7724"
+      ],
+      "contradictoryEvidenceIds": [],
+      "confidence": 1,
+      "reviewedBy": "synthetic-fixture-review",
+      "reviewedAt": "2026-08-22T00:00:00.000Z"
+    },
+    {
+      "themeId": "decision-resume",
+      "taxonomyVersion": "fixture-taxonomy-v1",
+      "name": "Comparison and decision-resume effort",
+      "status": "discovered",
+      "userGoal": "Resume a saved-item comparison without reconstructing prior reasoning.",
+      "barrierOrNeed": "Saved options lose context and require repeated comparison.",
+      "journeyStages": [
+        "revisit",
+        "comparison",
+        "decision"
+      ],
+      "inclusionCriteria": [
+        "Repeated comparison or forgotten shortlist rationale is explicit."
+      ],
+      "exclusionCriteria": [
+        "Passive inspiration with no active decision."
+      ],
+      "relatedBarrierIds": [
+        "comparison_overload",
+        "wishlist_clutter_forgetting"
+      ],
+      "typicalWorkarounds": [
+        "Reopening every product"
+      ],
+      "representativeEvidenceIds": [
+        "ev-433ad9ec9a2ddc0c"
+      ],
+      "contradictoryEvidenceIds": [],
+      "confidence": 0.9,
+      "reviewedBy": "synthetic-fixture-review",
+      "reviewedAt": "2026-08-22T00:00:00.000Z"
+    },
+    {
+      "themeId": "fit-confidence",
+      "taxonomyVersion": "fixture-taxonomy-v1",
+      "name": "Fit and size confidence",
+      "status": "discovered",
+      "userGoal": "Choose a suitable size with enough confidence to progress.",
+      "barrierOrNeed": "Size and silhouette evidence is not personally diagnostic.",
+      "journeyStages": [
+        "research",
+        "revisit",
+        "decision"
+      ],
+      "inclusionCriteria": [
+        "Explicit fit or size uncertainty tied to a decision."
+      ],
+      "exclusionCriteria": [
+        "Post-purchase sizing with no future decision link."
+      ],
+      "relatedBarrierIds": [
+        "fit_size_uncertainty",
+        "review_trust_gap"
+      ],
+      "typicalWorkarounds": [
+        "Rechecking reviews",
+        "Looking for measurements"
+      ],
+      "representativeEvidenceIds": [
+        "ev-fc4157722f6df438",
+        "ev-3c0a70041b002397",
+        "ev-99ea52110bfdfce3"
+      ],
+      "contradictoryEvidenceIds": [
+        "ev-3c0a70041b002397"
+      ],
+      "confidence": 0.9,
+      "reviewedBy": "synthetic-fixture-review",
+      "reviewedAt": "2026-08-22T00:00:00.000Z"
+    },
+    {
+      "themeId": "occasion-confidence",
+      "taxonomyVersion": "fixture-taxonomy-v1",
+      "name": "Occasion and styling confidence",
+      "status": "discovered",
+      "userGoal": "Judge whether a product suits a specific context.",
+      "barrierOrNeed": "Styling context is insufficient for an occasion decision.",
+      "journeyStages": [
+        "comparison",
+        "decision"
+      ],
+      "inclusionCriteria": [
+        "A named occasion or styling requirement affects choice."
+      ],
+      "exclusionCriteria": [
+        "General aesthetic preference."
+      ],
+      "relatedBarrierIds": [
+        "styling_occasion_uncertainty",
+        "social_validation_gap"
+      ],
+      "typicalWorkarounds": [
+        "Asking friends"
+      ],
+      "representativeEvidenceIds": [
+        "ev-f57ce8253daf8e82"
+      ],
+      "contradictoryEvidenceIds": [],
+      "confidence": 0.9,
+      "reviewedBy": "synthetic-fixture-review",
+      "reviewedAt": "2026-08-22T00:00:00.000Z"
+    },
+    {
+      "themeId": "product-confidence",
+      "taxonomyVersion": "fixture-taxonomy-v1",
+      "name": "Product evidence confidence",
+      "status": "discovered",
+      "userGoal": "Understand likely material and visual reality before purchase.",
+      "barrierOrNeed": "Catalog evidence does not resolve material, colour, or review conflict.",
+      "journeyStages": [
+        "research",
+        "decision"
+      ],
+      "inclusionCriteria": [
+        "Material, colour, image, or review diagnosticity affects a decision."
+      ],
+      "exclusionCriteria": [
+        "Actual fulfillment failures without pre-purchase uncertainty."
+      ],
+      "relatedBarrierIds": [
+        "material_quality_uncertainty",
+        "color_image_mismatch",
+        "review_trust_gap"
+      ],
+      "typicalWorkarounds": [
+        "Comparing external photos",
+        "Looking for measurements"
+      ],
+      "representativeEvidenceIds": [
+        "ev-48116b752a0680eb",
+        "ev-34dba3676e03126f",
+        "ev-99ea52110bfdfce3"
+      ],
+      "contradictoryEvidenceIds": [],
+      "confidence": 0.9,
+      "reviewedBy": "synthetic-fixture-review",
+      "reviewedAt": "2026-08-22T00:00:00.000Z"
+    },
+    {
+      "themeId": "reversible-purchase",
+      "taxonomyVersion": "fixture-taxonomy-v1",
+      "name": "Reversible purchase confidence",
+      "status": "discovered",
+      "userGoal": "Understand the effort and timing required if a choice is wrong.",
+      "barrierOrNeed": "Return and refund uncertainty delays an otherwise active choice.",
+      "journeyStages": [
+        "revisit",
+        "decision"
+      ],
+      "inclusionCriteria": [
+        "Return or refund uncertainty is linked to pre-purchase delay."
+      ],
+      "exclusionCriteria": [
+        "Resolved post-purchase support complaints."
+      ],
+      "relatedBarrierIds": [
+        "return_refund_risk"
+      ],
+      "typicalWorkarounds": [],
+      "representativeEvidenceIds": [
+        "ev-8f1b5ee4620f7fe4"
+      ],
+      "contradictoryEvidenceIds": [],
+      "confidence": 0.9,
+      "reviewedBy": "synthetic-fixture-review",
+      "reviewedAt": "2026-08-22T00:00:00.000Z"
+    }
+  ],
+  "segments": [
+    {
+      "segmentId": "active-confidence-seeker",
+      "name": "Active confidence seeker",
+      "status": "evidence_supported",
+      "definition": "Revisits or researches a specific product but lacks enough fit, material, or stock confidence to progress.",
+      "qualifyingBehaviors": [
+        "Explicit active interest",
+        "Repeated evidence seeking",
+        "Decision remains open"
+      ],
+      "exclusionRules": [
+        "Passive inspiration only",
+        "Price-only waiting"
+      ],
+      "evidenceIds": [
+        "ev-fc4157722f6df438",
+        "ev-48116b752a0680eb",
+        "ev-3c0a70041b002397",
+        "ev-3a9797249a3d7724",
+        "ev-99ea52110bfdfce3"
+      ],
+      "topBarrierIds": [
+        "fit_size_uncertainty",
+        "material_quality_uncertainty",
+        "stock_size_unavailability",
+        "review_trust_gap"
+      ],
+      "unknowns": [
+        "Commercial value",
+        "Demographics",
+        "Internal purchase history"
+      ],
+      "interviewRecruitmentRule": "Recruit people who revisited a Myntra saved item at least twice and sought product evidence before deciding.",
+      "confidence": 0.9
+    },
+    {
+      "segmentId": "comparison-led-revisitor",
+      "name": "Comparison-led revisitor",
+      "status": "evidence_supported",
+      "definition": "Maintains multiple live options and reconstructs trade-offs on revisit.",
+      "qualifyingBehaviors": [
+        "Multiple saved alternatives",
+        "Repeated comparison"
+      ],
+      "exclusionRules": [
+        "Single passive bookmark"
+      ],
+      "evidenceIds": [
+        "ev-433ad9ec9a2ddc0c"
+      ],
+      "topBarrierIds": [
+        "comparison_overload",
+        "wishlist_clutter_forgetting"
+      ],
+      "unknowns": [
+        "Shortlist duration",
+        "Final purchase outcome"
+      ],
+      "interviewRecruitmentRule": "Recruit people who compared three or more Myntra saved items during their latest active decision.",
+      "confidence": 0.9
+    },
+    {
+      "segmentId": "risk-sensitive-decider",
+      "name": "Risk-sensitive decider",
+      "status": "evidence_supported",
+      "definition": "Seeks visual, occasion, or reversibility evidence before committing.",
+      "qualifyingBehaviors": [
+        "Explicit downside uncertainty",
+        "Uses a verification workaround"
+      ],
+      "exclusionRules": [
+        "Resolved operational complaint only"
+      ],
+      "evidenceIds": [
+        "ev-34dba3676e03126f",
+        "ev-8f1b5ee4620f7fe4",
+        "ev-f57ce8253daf8e82"
+      ],
+      "topBarrierIds": [
+        "color_image_mismatch",
+        "return_refund_risk",
+        "styling_occasion_uncertainty",
+        "social_validation_gap"
+      ],
+      "unknowns": [
+        "Risk tolerance outside this decision",
+        "Purchase frequency"
+      ],
+      "interviewRecruitmentRule": "Recruit people who delayed a Myntra fashion decision while checking mismatch, occasion, or return risk.",
+      "confidence": 0.9
+    }
+  ],
+  "opportunities": [
+    {
+      "opportunityId": "preferred-variant-availability",
+      "name": "Make preferred variants easier to track",
+      "description": "Help an interested shopper monitor and resume a saved-item decision when their preferred size or variant is unavailable.",
+      "status": "engine_candidate",
+      "affectedProductOutcomes": [
+        "wishlist_to_bag_progression",
+        "purchase_within_30_days_hypothesis"
+      ],
+      "themeIds": [
+        "availability-planning"
+      ],
+      "segmentIds": [
+        "active-confidence-seeker"
+      ],
+      "evidenceIds": [
+        "ev-3a9797249a3d7724"
+      ],
+      "directEvidenceCount": 1,
+      "adjacentEvidenceCount": 0,
+      "sourceDistribution": {
+        "google_play": 1
+      },
+      "workaroundSummary": [
+        "Checks availability manually"
+      ],
+      "scoreInputs": {
+        "corpusFrequency": 9.1,
+        "severity": 66.7,
+        "conversionProximity": 85,
+        "nonMonetarySolvability": 100,
+        "targetSegmentValue": 100,
+        "evidenceConfidence": 96,
+        "monetaryDependency": 0
+      },
+      "baseScore": 67.2,
+      "adjustedScore": 67.2,
+      "confidenceBand": "medium",
+      "limitations": [
+        "Synthetic fixture output only; it is not a finding about Myntra shoppers.",
+        "Denominator is 11 synthetic relevant evidence units."
+      ],
+      "interviewQuestions": [
+        "Tell me about the last time your preferred size or variant was unavailable on Myntra.",
+        "What did you do after discovering it was unavailable?",
+        "How often did you return to check it?",
+        "What information or notification would have been useful?",
+        "When would availability monitoring become annoying or no longer useful?",
+        "Did you continue waiting, choose another product, or abandon the decision?"
+      ]
+    },
+    {
+      "opportunityId": "shortlist-memory",
+      "name": "Preserve shortlist comparison context",
+      "description": "Reduce the work required to reconstruct why similar products were saved and how they differ.",
+      "status": "engine_candidate",
+      "affectedProductOutcomes": [
+        "wishlist_to_bag_progression",
+        "purchase_within_30_days_hypothesis"
+      ],
+      "themeIds": [
+        "decision-resume"
+      ],
+      "segmentIds": [
+        "comparison-led-revisitor"
+      ],
+      "evidenceIds": [
+        "ev-433ad9ec9a2ddc0c"
+      ],
+      "directEvidenceCount": 1,
+      "adjacentEvidenceCount": 0,
+      "sourceDistribution": {
+        "reddit": 1
+      },
+      "workaroundSummary": [
+        "Reopens every saved product"
+      ],
+      "scoreInputs": {
+        "corpusFrequency": 9.1,
+        "severity": 66.7,
+        "conversionProximity": 85,
+        "nonMonetarySolvability": 100,
+        "targetSegmentValue": 100,
+        "evidenceConfidence": 94,
+        "monetaryDependency": 0
+      },
+      "baseScore": 67,
+      "adjustedScore": 67,
+      "confidenceBand": "medium",
+      "limitations": [
+        "Synthetic fixture output only; it is not a finding about Myntra shoppers.",
+        "Denominator is 11 synthetic relevant evidence units."
+      ],
+      "interviewQuestions": [
+        "What evidence did you need when you revisited the saved item?",
+        "What would have helped you progress without a discount?"
+      ]
+    },
+    {
+      "opportunityId": "product-evidence-clarity",
+      "name": "Increase product-evidence diagnosticity",
+      "description": "Help shoppers reconcile material, visual, and review evidence before committing.",
+      "status": "engine_candidate",
+      "affectedProductOutcomes": [
+        "wishlist_to_bag_progression",
+        "purchase_within_30_days_hypothesis"
+      ],
+      "themeIds": [
+        "product-confidence"
+      ],
+      "segmentIds": [
+        "active-confidence-seeker",
+        "risk-sensitive-decider"
+      ],
+      "evidenceIds": [
+        "ev-48116b752a0680eb",
+        "ev-34dba3676e03126f",
+        "ev-99ea52110bfdfce3"
+      ],
+      "directEvidenceCount": 1,
+      "adjacentEvidenceCount": 2,
+      "sourceDistribution": {
+        "myntra_product_review": 2,
+        "youtube": 1
+      },
+      "workaroundSummary": [
+        "Compares creator videos with catalog photos",
+        "Looks for measurements"
+      ],
+      "scoreInputs": {
+        "corpusFrequency": 27.3,
+        "severity": 44.4,
+        "conversionProximity": 85,
+        "nonMonetarySolvability": 100,
+        "targetSegmentValue": 100,
+        "evidenceConfidence": 89.7,
+        "monetaryDependency": 0
+      },
+      "baseScore": 66.7,
+      "adjustedScore": 66.7,
+      "confidenceBand": "high",
+      "limitations": [
+        "Synthetic fixture output only; it is not a finding about Myntra shoppers.",
+        "Denominator is 11 synthetic relevant evidence units."
+      ],
+      "interviewQuestions": [
+        "What evidence did you need when you revisited the saved item?",
+        "What would have helped you progress without a discount?"
+      ]
+    },
+    {
+      "opportunityId": "fit-decision-support",
+      "name": "Make saved-item fit decisions easier to resume",
+      "description": "Preserve and surface personally diagnostic size evidence when an interested shopper revisits a saved item.",
+      "status": "engine_candidate",
+      "affectedProductOutcomes": [
+        "wishlist_to_bag_progression",
+        "purchase_within_30_days_hypothesis"
+      ],
+      "themeIds": [
+        "fit-confidence"
+      ],
+      "segmentIds": [
+        "active-confidence-seeker"
+      ],
+      "evidenceIds": [
+        "ev-fc4157722f6df438",
+        "ev-3c0a70041b002397",
+        "ev-99ea52110bfdfce3"
+      ],
+      "directEvidenceCount": 2,
+      "adjacentEvidenceCount": 1,
+      "sourceDistribution": {
+        "google_play": 1,
+        "myntra_product_review": 2
+      },
+      "workaroundSummary": [
+        "Rechecks reviews",
+        "Uses measurements and customer photos",
+        "Looks for measurements"
+      ],
+      "scoreInputs": {
+        "corpusFrequency": 27.3,
+        "severity": 33.3,
+        "conversionProximity": 88.3,
+        "nonMonetarySolvability": 100,
+        "targetSegmentValue": 100,
+        "evidenceConfidence": 93,
+        "monetaryDependency": 0
+      },
+      "baseScore": 65.4,
+      "adjustedScore": 65.4,
+      "confidenceBand": "high",
+      "limitations": [
+        "Synthetic fixture output only; it is not a finding about Myntra shoppers.",
+        "Denominator is 11 synthetic relevant evidence units."
+      ],
+      "interviewQuestions": [
+        "What evidence did you need when you revisited the saved item?",
+        "What would have helped you progress without a discount?"
+      ]
+    },
+    {
+      "opportunityId": "reversibility-clarity",
+      "name": "Clarify purchase reversibility at decision time",
+      "description": "Make relevant return and refund expectations easier to understand before bag progression.",
+      "status": "engine_candidate",
+      "affectedProductOutcomes": [
+        "wishlist_to_bag_progression",
+        "purchase_within_30_days_hypothesis"
+      ],
+      "themeIds": [
+        "reversible-purchase"
+      ],
+      "segmentIds": [
+        "risk-sensitive-decider"
+      ],
+      "evidenceIds": [
+        "ev-8f1b5ee4620f7fe4"
+      ],
+      "directEvidenceCount": 1,
+      "adjacentEvidenceCount": 0,
+      "sourceDistribution": {
+        "app_store": 1
+      },
+      "workaroundSummary": [],
+      "scoreInputs": {
+        "corpusFrequency": 9.1,
+        "severity": 66.7,
+        "conversionProximity": 85,
+        "nonMonetarySolvability": 66.7,
+        "targetSegmentValue": 100,
+        "evidenceConfidence": 91,
+        "monetaryDependency": 0
+      },
+      "baseScore": 61.7,
+      "adjustedScore": 61.7,
+      "confidenceBand": "medium",
+      "limitations": [
+        "Synthetic fixture output only; it is not a finding about Myntra shoppers.",
+        "Denominator is 11 synthetic relevant evidence units."
+      ],
+      "interviewQuestions": [
+        "What evidence did you need when you revisited the saved item?",
+        "What would have helped you progress without a discount?"
+      ]
+    }
+  ],
+  "hypotheses": {
+    "themes": [
+      {
+        "id": "fit-size-silhouette",
+        "name": "Fit, size, and silhouette confidence",
+        "status": "hypothesis",
+        "description": "Investigate whether still-interested wishlist revisitors can confidently choose a variant."
+      },
+      {
+        "id": "product-confidence",
+        "name": "Material, quality, and visual confidence",
+        "status": "hypothesis",
+        "description": "Investigate whether current product evidence is trusted and personally diagnostic."
+      },
+      {
+        "id": "decision-resume-effort",
+        "name": "Comparison and decision-resume effort",
+        "status": "hypothesis",
+        "description": "Investigate whether revisiting saved products requires shoppers to reconstruct comparisons and prior reasoning."
+      },
+      {
+        "id": "return-risk",
+        "name": "Return and post-purchase risk",
+        "status": "hypothesis",
+        "description": "Investigate whether uncertainty about returns, refunds, or product mismatch delays otherwise active decisions."
+      }
+    ],
+    "segments": [
+      {
+        "id": "still-interested-revisitor",
+        "name": "Still-interested wishlist revisitor",
+        "status": "hypothesis",
+        "description": "A behavior-based candidate group for later evidence review and interviews."
+      },
+      {
+        "id": "comparison-led-revisitor",
+        "name": "Comparison-led revisitor",
+        "status": "hypothesis",
+        "description": "A candidate group that may keep several saved options active while reconstructing comparisons."
+      },
+      {
+        "id": "fit-confidence-seeker",
+        "name": "Fit-confidence seeker",
+        "status": "hypothesis",
+        "description": "A candidate group that may remain interested but lack enough evidence to select size or silhouette."
+      },
+      {
+        "id": "risk-sensitive-decider",
+        "name": "Risk-sensitive decider",
+        "status": "hypothesis",
+        "description": "A candidate group that may delay when product mismatch or return effort feels difficult to reverse."
+      }
+    ]
+  },
+  "quality": {
+    "status": "passed_with_warnings",
+    "warnings": [
+      "All records and labels are synthetic.",
+      "Fixture volume is intentionally small and does not satisfy the 20,000-record production target."
+    ]
+  }
+}

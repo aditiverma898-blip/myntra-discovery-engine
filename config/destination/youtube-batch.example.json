@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "1.0.0",
+  "batchId": "youtube-sample-001",
+  "datasetVersion": "myntra-candidate-001",
+  "source": "youtube",
+  "approvalId": "youtube-review-required",
+  "routeConfig": {
+    "route": "youtube_data_api",
+    "regionCode": "IN",
+    "relevanceLanguage": "en",
+    "videosPerQueryPage": 3,
+    "commentsPerVideo": 20,
+    "order": "relevance"
+  },
+  "queries": [
+    { "queryId": "youtube-wishlist-fit", "text": "Myntra wishlist size fit review" }
+  ],
+  "limits": { "maxItems": 50, "maxItemsPerQuery": 10, "maxPagesPerQuery": 1, "maxRequests": 10, "maxCostUsd": 0, "maxAttempts": 2 },
+  "outputPath": "data/raw/youtube-sample-001",
+  "quarantinePath": "data/intermediate/quarantine/youtube-sample-001",
+  "rawRetentionDays": 2
+}

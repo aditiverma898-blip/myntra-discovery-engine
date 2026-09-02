@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "1.0.0",
+  "kind": "embedding",
+  "jobId": "embedding-discovery-001",
+  "approvalId": "gemini-review-required",
+  "modelId": "replace-with-reviewed-embedding-model",
+  "inputPath": "data/intermediate/runs/real-run-001/canonical.jsonl",
+  "outputPath": "data/intermediate/embeddings/embedding-discovery-001.jsonl",
+  "failurePath": "data/intermediate/embeddings/embedding-discovery-001.failures.jsonl",
+  "maxItems": 1000,
+  "maxRequests": 3000,
+  "maxCostUsd": 10,
+  "estimatedCostPerRequestUsd": 0.005,
+  "maxAttempts": 3,
+  "dimensions": 768
+}

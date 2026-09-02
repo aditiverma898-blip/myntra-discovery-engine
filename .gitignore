@@ -1,0 +1,50 @@
+# Dependencies and build output
+node_modules/
+.next/
+out/
+build/
+dist/
+next-env.d.ts
+*.tsbuildinfo
+
+# Test output
+coverage/
+playwright-report/
+test-results/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Data (raw, intermediate, cache)
+data/raw/*
+!data/raw/.gitkeep
+data/intermediate/*
+!data/intermediate/.gitkeep
+data/cache/*
+!data/cache/.gitkeep
+data/releases/*/normalized.restricted.jsonl
+data/releases/*/classifications.restricted.jsonl
+
+# Internal docs (not for release) — docs/ is released and intentionally NOT ignored
+local-docs/
+config/destination/local/
+config/source-approvals/local/
+
+# Archives
+*.tar.gz
+
+# Analytical output
+analysis/output/
+*.parquet
+*.duckdb
+
+# Editor and OS
+.DS_Store
+.idea/
+.vscode/
+
+# Logs
+*.log
+npm-debug.log*

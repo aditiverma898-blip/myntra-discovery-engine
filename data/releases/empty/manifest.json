@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.0.0",
+  "datasetVersion": "empty-001",
+  "status": "empty",
+  "generatedAt": null,
+  "scope": {
+    "product": "myntra",
+    "targetRawRecords": 20000,
+    "acceptableRawMinimum": 18000,
+    "acceptableRawMaximum": 22000,
+    "otherShoppingPlatformsIncluded": false
+  },
+  "codeCommit": null,
+  "taxonomyVersion": null,
+  "promptVersion": null,
+  "classifier": null,
+  "embedding": null,
+  "coverage": [],
+  "counts": {
+    "raw": null,
+    "normalized": null,
+    "canonical": null,
+    "direct": null,
+    "adjacent": null,
+    "general": null,
+    "irrelevant": null,
+    "reviewed": null
+  },
+  "files": [],
+  "qualityStatus": "not_evaluated",
+  "limitations": [
+    "No collection, classification, embedding, or evidence analysis has been performed."
+  ]
+}

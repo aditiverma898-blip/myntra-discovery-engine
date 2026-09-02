@@ -1,0 +1,158 @@
+{
+  "schemaVersion": "1.0.0",
+  "datasetVersion": "fixture-001",
+  "status": "ready",
+  "generatedAt": "2026-08-22T00:00:00.000Z",
+  "scope": {
+    "product": "myntra",
+    "targetRawRecords": 20000,
+    "acceptableRawMinimum": 18000,
+    "acceptableRawMaximum": 22000,
+    "otherShoppingPlatformsIncluded": false
+  },
+  "codeCommit": null,
+  "taxonomyVersion": "fixture-taxonomy-v1",
+  "promptVersion": "fixture-prompt-v1",
+  "classifier": {
+    "provider": "mock",
+    "model": "mock-structured-classifier-v1"
+  },
+  "embedding": null,
+  "coverage": [
+    {
+      "source": "app_store",
+      "runIds": [
+        "fixture-app_store-001"
+      ],
+      "from": null,
+      "to": null,
+      "queries": [
+        "broad-myntra",
+        "wishlist-return-risk"
+      ]
+    },
+    {
+      "source": "community",
+      "runIds": [
+        "fixture-community-001"
+      ],
+      "from": null,
+      "to": null,
+      "queries": [
+        "myntra-occasion-help",
+        "wishlist-inspiration"
+      ]
+    },
+    {
+      "source": "google_play",
+      "runIds": [
+        "fixture-google_play-001"
+      ],
+      "from": null,
+      "to": null,
+      "queries": [
+        "myntra-size-guide",
+        "saved-size-help",
+        "wishlist-fit",
+        "wishlist-out-of-stock",
+        "wishlist-sale"
+      ]
+    },
+    {
+      "source": "myntra_product_review",
+      "runIds": [
+        "fixture-myntra_product_review-001"
+      ],
+      "from": null,
+      "to": null,
+      "queries": [
+        "positive-resolution",
+        "quality-before-buy",
+        "review-diagnosticity"
+      ]
+    },
+    {
+      "source": "reddit",
+      "runIds": [
+        "fixture-reddit-001"
+      ],
+      "from": null,
+      "to": null,
+      "queries": [
+        "wishlist-shortlist"
+      ]
+    },
+    {
+      "source": "youtube",
+      "runIds": [
+        "fixture-youtube-001"
+      ],
+      "from": null,
+      "to": null,
+      "queries": [
+        "broad-myntra",
+        "myntra-haul-color"
+      ]
+    }
+  ],
+  "counts": {
+    "raw": 16,
+    "normalized": 15,
+    "canonical": 13,
+    "direct": 7,
+    "adjacent": 4,
+    "general": 1,
+    "irrelevant": 1,
+    "reviewed": 13
+  },
+  "files": [
+    {
+      "role": "dashboard_aggregates",
+      "path": "aggregates.json",
+      "sha256": "6681e09110102c767141c0ef44c02d6ec4cede8049a72e58ccb3e51f80178d29",
+      "recordCount": null,
+      "visibility": "client"
+    },
+    {
+      "role": "public_safe_evidence",
+      "path": "evidence.server.jsonl",
+      "sha256": "e76469b62225ee6e86c3ffbba94385a320108793cb49e3cdf9bad271f6fe1096",
+      "recordCount": 13,
+      "visibility": "server"
+    },
+    {
+      "role": "normalized_evidence",
+      "path": "normalized.restricted.jsonl",
+      "sha256": "4f1d08096282bcca1afc952c02f091beb67b9c86896e63c3406aab60546a56fb",
+      "recordCount": 13,
+      "visibility": "restricted"
+    },
+    {
+      "role": "classifications",
+      "path": "classifications.restricted.jsonl",
+      "sha256": "f97afa314d576ce5e9823eddaa08b564251a1119207e10eb806677f0cb32bb54",
+      "recordCount": 13,
+      "visibility": "restricted"
+    },
+    {
+      "role": "validation_ledger",
+      "path": "validation-ledger.jsonl",
+      "sha256": "29d7c161eddb6aa2d39960f40f0e514189edd817bdbe2bb38c622eab0c1868d0",
+      "recordCount": 1,
+      "visibility": "restricted"
+    },
+    {
+      "role": "theme_discovery",
+      "path": "lexical-clusters.json",
+      "sha256": "b6a82ff170a25cf6df356f3978ba0e0ed86e3f9ef867296b50ffaab50aeac404",
+      "recordCount": 6,
+      "visibility": "restricted"
+    }
+  ],
+  "qualityStatus": "passed_with_warnings",
+  "limitations": [
+    "This immutable release contains fictional synthetic fixtures only; no source or model call occurred.",
+    "Its small record count is for workflow testing and cannot support claims about Myntra shoppers.",
+    "15 valid records were normalized; deduplication grouped 2 records; 1 malformed record was quarantined."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "1.0.0",
+  "kind": "classification",
+  "jobId": "classification-evaluation-001",
+  "approvalId": "gemini-review-required",
+  "modelId": "replace-with-reviewed-model",
+  "inputPath": "data/intermediate/runs/real-run-001/canonical.jsonl",
+  "outputPath": "data/intermediate/classification/classification-evaluation-001.jsonl",
+  "failurePath": "data/intermediate/classification/classification-evaluation-001.failures.jsonl",
+  "maxItems": 300,
+  "maxRequests": 900,
+  "maxCostUsd": 5,
+  "estimatedCostPerRequestUsd": 0.01,
+  "maxAttempts": 3,
+  "promptVersion": "myntra-classifier-v1",
+  "taxonomyVersion": "candidate-taxonomy-v1"
+}

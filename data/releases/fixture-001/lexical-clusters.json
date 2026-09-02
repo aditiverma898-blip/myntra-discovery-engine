@@ -1,0 +1,96 @@
+[
+  {
+    "clusterId": "lexical-availability-planning",
+    "label": "availability-planning",
+    "evidenceIds": [
+      "ev-3a9797249a3d7724"
+    ],
+    "topTerms": [
+      "checking",
+      "dress",
+      "instead",
+      "intend",
+      "manually",
+      "required"
+    ]
+  },
+  {
+    "clusterId": "lexical-decision-resume",
+    "label": "decision-resume",
+    "evidenceIds": [
+      "ev-433ad9ec9a2ddc0c"
+    ],
+    "topTerms": [
+      "choosing",
+      "compare",
+      "every",
+      "fabric",
+      "forget",
+      "jeans"
+    ]
+  },
+  {
+    "clusterId": "lexical-fit-confidence",
+    "label": "fit-confidence",
+    "evidenceIds": [
+      "ev-3c0a70041b002397",
+      "ev-99ea52110bfdfce3",
+      "ev-fc4157722f6df438"
+    ],
+    "topTerms": [
+      "measurements",
+      "reviews",
+      "size",
+      "always",
+      "blocked",
+      "both"
+    ]
+  },
+  {
+    "clusterId": "lexical-occasion-confidence",
+    "label": "occasion-confidence",
+    "evidenceIds": [
+      "ev-f57ce8253daf8e82"
+    ],
+    "topTerms": [
+      "cannot",
+      "comparing",
+      "deciding",
+      "enough",
+      "event",
+      "formal"
+    ]
+  },
+  {
+    "clusterId": "lexical-product-confidence",
+    "label": "product-confidence",
+    "evidenceIds": [
+      "ev-34dba3676e03126f",
+      "ev-48116b752a0680eb",
+      "ev-99ea52110bfdfce3"
+    ],
+    "topTerms": [
+      "deciding",
+      "look",
+      "photos",
+      "both",
+      "catalog",
+      "colours"
+    ]
+  },
+  {
+    "clusterId": "lexical-reversible-purchase",
+    "label": "reversible-purchase",
+    "evidenceIds": [
+      "ev-8f1b5ee4620f7fe4"
+    ],
+    "topTerms": [
+      "about",
+      "adding",
+      "instead",
+      "jacket",
+      "keep",
+      "makes"
+    ]
+  }
+]

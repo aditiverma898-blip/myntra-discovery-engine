@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "1.0.0",
+  "datasetVersion": "empty-001",
+  "productScope": "myntra",
+  "dataStatus": "not_collected",
+  "externalCallsMade": false,
+  "sourceTarget": 20000,
+  "sourceTargetRange": [
+    18000,
+    22000
+  ],
+  "note": "Methodology is documented, but no source run has occurred."
+}
